@@ -1,0 +1,47 @@
+.permanent-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.permanent-clients-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.permanent-clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.permanent-client-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 250ms var(--cubic), fill 250ms var(--cubic);
+}
+
+.permanent-client-icon {
+    fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
+    display: inline-block;
+    transition: border-color 250ms var(--cubic), fill 250ms var(--cubic);
+}
+
+.permanent-client-link:hover,
+.permanent-client-link:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.permanent-client-link:hover .permanent-client-icon,
+.permanent-client-link:focus .permanent-client-icon {
+    fill: var(--accent-color);
+}

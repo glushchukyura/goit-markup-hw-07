@@ -1,0 +1,87 @@
+.footer-address {
+    margin-top: 20px;
+}
+
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.map-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-link,
+.tel-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list-item {
+    margin-bottom: 9px;
+}
+
+.footer-contact-box {}
+
+.join-us {
+    max-width: 206px;
+    margin-left: 70px;
+}
+
+.join-title {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.team-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-soc-link-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #fff;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+}
+
+.team-soc-icon-footer {
+    fill: #fff;
+}
+
+.team-soc-link-footer:hover,
+.team-soc-link-footer:focus {
+    background-color: var(--accent-color);
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+    fill: #FFFFFF;
+}

@@ -1,0 +1,49 @@
+.tasks {
+    padding-bottom: 94px;
+}
+
+.tasks-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.tasks-title {
+    margin-bottom: 50px;
+}
+
+.tasks-list {
+    display: flex;
+}
+
+.tasks-list-item {
+    margin-right: 30px;
+}
+
+.tasks-list-item:last-child {
+    margin-right: 0px;
+}
+
+.task-list-wrap {
+    position: relative;
+}
+
+.task-list-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
