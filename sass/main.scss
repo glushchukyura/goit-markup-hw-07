@@ -1,6 +1,9 @@
-@import './root';
-@import './general';
-@import './mod';
+@import './utils/root';
+@import './base/reset';
+@import './base/common';
+
+@import './utils/hidden';
+@import './components/container';
 @import './header';
 @import './hero';
 @import './principles';

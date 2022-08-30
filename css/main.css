@@ -7,11 +7,6 @@
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-}
-
 h1,
 h2,
 h3,
@@ -27,19 +22,17 @@ ul {
   padding-left: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
 button {
   cursor: pointer;
 }
 
 address {
   font-style: normal;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .navigation-list,
@@ -67,6 +60,13 @@ address {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .logo-web-element {
