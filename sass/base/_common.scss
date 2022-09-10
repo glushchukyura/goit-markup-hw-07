@@ -11,15 +11,28 @@ address {
     font-style: normal;
 }
 
-.navigation-list,
-.contacts-list,
-.principles-list,
-.tasks-list,
-.team-list,
-.address-list,
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation__list,
+.connection__list,
+.principles__list,
+.tasks__list,
+.team__list,
+.soc__list,
+.permanent-clients__list,
+.address__list,
 .filter-list,
-.projects-list,
-.team-soc-list,
-.permanent-clients-list {
+.projects-list
+ {
     list-style: none;
+}
+
+.link,
+link:visited {
+    text-decoration: none;
+    color: inherit
 }
